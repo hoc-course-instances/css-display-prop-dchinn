@@ -1,52 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-
-  <!-- 
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- 
     Font: Poppins
     Dark Grey: #333 
     Light Grey: #555
     Aqua: #39feee
   
   -->
-  Block
+    <section>
+      <h2>Block</h2>
 
-  Block-level elements always start on a new line and take
-      up the full width available (stretching left to right 
-      as far as possible)
+      <p>
+        Block-level elements always start on a new line and take up the full
+        width available (stretching left to right as far as possible)
+      </p>
+      <div>BLOCK</div>
+    
+      
+      <div>BLOCK</div>
+       
+      Examples include div, nav, header, section, footer, and ul elements.
+    </section>
 
-  BLOCK
-  BLOCK
+    <section>
+      <h2>Inline</h2>
+      Inline elements do not start on a new line and only occupy the space
+      their content requires. <span>INLINE</span> Some example of inline
+      elements include &lt;span&gt;, &lt;input&gt; ,&lt;label&gt;, 
+      &lt;select&gt; and &lt;a&gt;
+      elememts.
+      
+    </section>
 
-  Examples include div, nav, header,
-      section, footer, and ul elements.
-
-
-  Inline
-
-  Inline elements do not start on a new line and
-      only  occupy the space that their content requires.
-      INLINE. Some examples of inline elemetns include
-      span, input, label, select and a.
-
-
-  inline-block
-
-  Inline-block is set by the CSS display property
-      and differs to inline elements as we can set
-      width and height. We cannot do this width
-      inline elemetns as they only take the space their 
-      content needs. Also, top and bottom margins 
-      and paddings are respected, but inline elements
-      they are not.
-      INLINE-BLOCK INLINE-BLOCK. Unlike block-level elements,
-      inline-block elements do not start on a new
-      line and will sit next to other elements.
-</body>
+    <section>
+      <h2>Inline-block</h2>
+      Inline-block is set by the CSS display property and differs to inline
+      elements as we can set width and height. We cannot do this width inline
+      elemetns as they only take the space their content needs. Also, top and
+      bottom margins and paddings are respected, but inline elements they are
+      not. <label>INLINE-BLOCK</label> <span2>INLINE-BLOCK</span2>  . Unlike block-level elements, inline-block
+      elements do not start on a new line and will sit next to other elements.
+    </section>
+  </body>
 </html>
